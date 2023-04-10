@@ -1,0 +1,8 @@
+:root{
+    --color-primary:#37b182;
+    --color-primary-light:hsla(157, 53%, 52%, 0.249);
+    
+}
+.color-3{
+    transform: scale(1.2);
+}
