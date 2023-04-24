@@ -44,11 +44,11 @@
                 <h3>MIGUEL CASTILLO</h3>
             </a>
             <ul>
-                <li><a href="#" class="active lang" key="home">Home</a></li>
-                <li><a class="lang" href="#about" key="about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Let's talk</a></li>
+                <li><a href="#" class="active lang" key="home">Inicio</a></li>
+                <li><a class="lang" href="#about" key="about">Acerca</a></li>
+                <li><a href="#services" class="lang" key="services">Servicios</a></li>
+                <li><a href="#portfolio" class="lang" key="portfolio">Portafolio</a></li>
+                <li><a href="#contact" class="lang" key="contact">Let's talk</a></li>
 
             </ul>
             <button id="menu-btn"><span class="material-symbols-sharp">menu</span></button>
@@ -66,14 +66,13 @@
             </div>
             <div class="info">
 
-                <h1>UI/UX Design & Frontend Web Developer</h1>
-                <h3>Hi, I'm Miguel Castillo</h3>
+                <h1>UI/UX Design & Frontend Developer</h1>
+                <h3 class="lang" key="Myname">Hola, Soy Miguel Castillo</h3>
                 <div class="text-1"><span class="typing"></span></div>
 
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate rerum veritatis fugit
-                    quos, velit quasi deserunt nobis, laboriosam ullam aspernatur ducimus nostrum vitae
-                    perferendis quisquam quibusdam tenetur
-                    reprehenderit facilis dolor.</p>
+                <p class="lang" key="Mydescription">¡Hola! Soy Miguel Castillo, un ingeniero multimedia recién graduado con una pasión por crear sitios 
+                    web atractivos y funcionales. Durante mi formación, estudié Ingeniería Multimedia 
+                    y realicé proyectos en los que demostré mis habilidades en el desarrollo web.</p>
                 <a href="#contact" class="btn btn-primary">Let's Talk</a>
             </div>
             <!--===================== ANIMACION DE CIRCULO ========================-->
@@ -104,7 +103,7 @@
         </div>
         <!-- LENGUAGES -->
 
-        <h4>Theme colors</h4>
+        <h4 class="lang" key="theme-color">Color de tema</h4>
         <div class="colors">
             <span class="color-1" onclick="setActiveStyle('color-1')"></span>
             <span class="color-2" onclick="setActiveStyle('color-2')"></span>
@@ -112,7 +111,7 @@
             <span class="color-4" onclick="setActiveStyle('color-4')"></span>
             <span class="color-5" onclick="setActiveStyle('color-5')"></span>
         </div>
-        <h4>Lenguage</h4>
+        <h4 class="lang" key="lang">Lenguaje</h4>
         <div class="lenguages">
 
             <div class="cont-checkbox">
@@ -134,37 +133,37 @@
     <!--============ ABOUT SECTION ======== -->
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">About me</h2>
+            <h2 class="title lang"  key="About-title">Acerca de mi</h2>
             <div class="about-content">
                 <div class="column left">
                     <img class="img-about" src="/images/Me1.jpg" alt="Miguel Castillo's picture">
                 </div>
                 <div class="column right">
 
-                    <div class="text">I'm Miguel Castillo and I'm a <span>Web development</span></div>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ut eaque labore maxime,
-                        tenetur illo rem. Vitae dolores quasi velit incidunt deserunt maiores eos nesciunt deleniti,
-                        aperiam distinctio harum. Consectetur, magnam eum. Mollitia reiciendis quod voluptates delectus!
-                        Fuga blanditiis itaque possimus repudiandae, magnam consequatur. Amet placeat praesentium eos
-                        vitae rem quisquam autem quas velit repellendus! Temporibus iusto iste delectus laborum.</P>
+                    <div class="text-1"><span class="typing"></span></div>
+                    <p class="lang" key="Mydescription2">Tengo experiencia en lenguajes de programación como HTML, CSS, JavaScript, Java y C# así como en 
+                        frameworks y librerías como React y Bootstrap, tambien tengo experiencia en gestores de contenido 
+                        como Wordpress y Wix. También me considero un apasionado por el diseño y la UX, por lo que siempre
+                         busco crear interfaces atractivas y fáciles de usar para los usuarios.</p>
                         
                         <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            <p class="tab-links active-link lang" key="Skills" onclick="opentab('Skills')">Habilidades</p>
+                            <p class="tab-links lang" key="Education" onclick="opentab('Education')">Educación</p>
                             <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
                         </div>
 
                         <div class="tab-contents active-tab" id="Skills">
                             <ul>
-                                <li><span>UI/UX</span><br>Diseño de páginas web y aplicaciones.</li>
-                                <li><span>Web Frontend Development</span><br>Desarrollador Frontend.</li>
-                                <li><span>Creador de contenido</span><br>Edición de imagen video y audio.</li>
+                                <li><span>UI/UX</span><p class="lang" key="UI/UX-skills">Diseño de páginas web y aplicaciones en plataformas como Figma y Adobe XD.</p></li>
+                                <li><span>Frontend Web Development</span><p class="lang" key="Frontend-skills">Desarrollador Frontend junior
+                                    [ Html, Css, Js, Ajax, Bootstrap, React, Heroku ].</p></li>
+                                <li><span>Creación de contenido</span><p class="lang" key="Content-skills">Edición de imagen video y audio con las herramientas de Adobe.</p></li>
                             </ul>
                         </div>
                         <div class="tab-contents" id="Education">
                             <ul>
-                                <li><span>2022 - Actual</span><br>Gerencia en productividad e inovación</li>
-                                <li><span>2015 - 2022</span><br>Ingeniería Multimedia</li>
+                                <li><span>2022 - Actual</span><p class="lang" key="Study2">Gerencia en productividad e inovación</p></li>
+                                <li><span>2015 - 2022</span><p class="lang" key="Study1">Ingeniería Multimedia</p></li>
                             </ul>
                         </div>
                         <!-- <div class="tab-contents" id="experience">
@@ -174,8 +173,7 @@
                             </ul>
                         </div> -->
 
-
-                    <a href="#">Download CV</a>
+                    <a href="#">Descargar CV</a>
 
                 </div>
             </div>
@@ -196,41 +194,50 @@
 
         <div class="max-width">
 
-            <h2 class="title">My Services</h2>
+            <h2 class="title lang" key="MyServices">Mi Servicios</h2>
 
             <div class="serv-content">
 
                 <div class="card">
                     <div class="box">
                         <span class="material-symbols-sharp">brush</span>
-                        <div class="text ser-text">UI/UX Desing</div>
-                        <p class="ser-text" id="prueba">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                            pariatur aperiam eligendi,
-                            iusto saepe sint.</p>
+                        <div class="text ser-text lang" key="UI/UX-Service">Diseño UI/UX</div>
+                        <p class="ser-text lang" key="UI/UX-Service-description">Proyectos de diseño de interfaces web y móvil, 
+                            branding y diseño gráfico. Diseño de logotipos, tarjetas de presentación y otros 
+                            materiales corporativos.</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="box">
                         <span class="material-symbols-sharp">code</span>
-                        <div class="text ser-text">Web Development</div>
-                        <p class="ser-text" id="prueba">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                            pariatur aperiam eligendi,
-                            iusto saepe sint.</p>
+                        <div class="text ser-text lang" key="Web Development-Service">Desarrollo Web</div>
+                        <p class="ser-text lang" key="Web Development-Service-description" >Proyectos de diseño y desarrollo web en HTML, CSS y JS, además de gestores de contenido 
+                            como wix y Wordpress.
+                            Diseño responsive para una visualización óptima en diferentes dispositivos.</p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="box">
                         <span class="material-symbols-sharp">imagesmode</span>
-                        <div class="text ser-text">Content Creation</div>
-                        <p class="ser-text" id="prueba">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                            pariatur aperiam eligendi,
-                            iusto saepe sint.</p>
+                        <div class="text ser-text lang" key="Content-Service">Creación de contenido</div>
+                        <p class="ser-text lang" key="Content-Service-description">Creación de contenido multimedia, edición de Imagen, Audio y Video.
+                            Experiencia con el uso de herramientas como After effects, Premiere e Illustrator.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+      
+      <div class="botonsito">
+      <a href="https://youtu.be/IQvDtQA1AiE" target="_blank"><i class="uil uil-youtube"></i>Portfolio</a>
+    </div>
+          
+          
+       
+          
+
     </section>
 
     <!--============ SERVICES SECTION ======== -->
@@ -243,31 +250,37 @@
  
     <div class="max-width">
 
-        <h2 class="title">My work</h2>
+        <h2 class="title lang" key="MyWork">Mi trabajo</h2>
 
         <div class="proyectos">
             <div class="proyecto">
-              <img src="/images/business-card-gdc1f7b85f_1280.jpg" alt="Nombre del proyecto 1">
+              <img src="/images/business-card.jpg" alt="Mi carrito diferente" onclick="window.open('https://www.canva.com/design/DAFfXWy0e2g/T0EkZwHSEoINxSxi0xgEYA/edit?utm_content=DAFfXWy0e2g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')"
+              >
               <div class="descripcion">
-                <h2>Nombre del proyecto 1</h2>
-                <p>Descripción breve del proyecto 1.</p>
-                <p class="detalles">Descripción detallada del proyecto 1.</p>
+                <h2  >Mi carrito diferente</h2>
+                <p class="ser-text bold lang" key="Project1">Diseño de tarjetas</p>
+                <p class="ser-text lang" key="Project1-description">  Se crearon diferentes logotipos y diseños de tarjetas para la campaña 'Mi carrito diferente'
+                     en la ciudad de Sincelejo, con el objetivo de impulsar las ventas ambulantes en el sector.</p>
+                
               </div>
             </div>
             <div class="proyecto">
-              <img src="/images/code-ge58ee6b88_1280.jpg" alt="Nombre del proyecto 2">
+              <img src="/images/code-ge58ee6b88_1280.jpg" alt=" Miami Executive Car Service" onclick="window.open('https://www.miamiexecutivecarservice.com')">
               <div class="descripcion">
-                <h2>Nombre del proyecto 2</h2>
-                <p>Descripción breve del proyecto 2.</p>
-                <p class="detalles">Descripción detallada del proyecto 2.</p>
+                <h2  >Miami Executive Car Service</h2>
+                <p class="ser-text bold lang" key="Project2">Diseño e implementación de página web</p>
+                <p class="ser-text lang" key="Project2-description">Diseño de la página web para la empresa 'Miami Executive Car Service',
+                     y luego se implementó en el gestor de contenido Wix. </p>
               </div>
             </div>
             <div class="proyecto">
-              <img src="/images/editing-g0a6a4a837_1280.jpg" alt="Nombre del proyecto 3">
+              <img src="/images/editing-g0a6a4a837_1280.jpg" alt="Creditos de apex" onclick="window.open('https://youtu.be/HEpdLEfJnYs')">
               <div class="descripcion">
-                <h2>Nombre del proyecto 3</h2>
-                <p>Descripción breve del proyecto 3.</p>
-                <p class="detalles">Descripción detallada del proyecto 3.</p>
+                <h2  >Motion Graphics</h2>
+                <p class="ser-text bold lang" key="Project3" >Edición de video</p>
+                <p class="ser-text lang" key="Project3-description">Proyecto final de una clase de motion graphics,
+                     que consiste en la propuesta de un video de créditos para el videojuego Apex Legends. </p>
+              
               </div>
             </div>
           </div>
@@ -275,6 +288,7 @@
       
     
 </section>
+
 
 
 

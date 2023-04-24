@@ -52,10 +52,14 @@ dayNight.addEventListener('click', () => {
 
   if (dayON) {
     $(".ser-text").css("color", "black");
+    
+
    
 
   } else {
     $(".ser-text").css("color", "white");
+    
+
     
   }
 });

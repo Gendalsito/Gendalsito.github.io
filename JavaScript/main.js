@@ -52,7 +52,7 @@ window.addEventListener('scroll',() => {
 // CDNJS TYPING
 
 var typed = new Typed (".typing",{
-    strings:["UI/UX","UX","Front Development"],
+    strings:["UI/UX Design","Front Development","Video and image editing","Logo design"],
     typeSpeed:100,
     backSpeed:60,
     loop:true
@@ -81,3 +81,4 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 }
+
