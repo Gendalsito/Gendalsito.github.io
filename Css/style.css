@@ -688,6 +688,7 @@ section.services a:hover {
 .portfolio {
     color: var(--color-primary);
   margin-top: -4rem;
+  margin-bottom: 0!important;
 
 
 }
@@ -791,6 +792,10 @@ section.portfolio .title::after {
   }
  
 
+  section.portfolio .proyectos .proyecto .descripcion p{
+    color: white !important;
+
+}
 
 
 
@@ -800,6 +805,42 @@ section.portfolio .title::after {
 
 
 
+
+
+
+.contacto {
+    padding: 100px 0;
+    text-align: center;
+    margin-top: -5rem!important;
+  }
+  
+  
+ 
+  
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .redes-sociales a {
+
+    margin: 0 20px;
+    font-size: 3rem;
+    color: var(--color-primary);
+    transition: color 0.3s ease-in-out;
+    animation: 2s;
+  }
+  
+  .redes-sociales a:hover {
+    scale: 2;
+  }
+
+  section.contacto .title::after {
+   
+    content: "Social media"; 
+}
+  
 
 
 

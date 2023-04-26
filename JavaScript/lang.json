@@ -5,7 +5,7 @@
     "services":"Servicios",
     "portfolio":"Portafolio",
     "Myname":"Hola, Soy Miguel Castillo",
-    "Mydescription":"¡Hola! Soy Miguel Castillo, un ingeniero multimedia recién graduado con una pasión por crear sitios web atractivos y funcionales. Durante mi formación, estudié Ingeniería Multimedia y realicé proyectos en los que demostré mis habilidades en el desarrollo web.",
+    "Mydescription":"Soy un ingeniero multimedia recién graduado con una pasión por crear sitios web atractivos y funcionales. Durante mi formación, estudié Ingeniería Multimedia y realicé proyectos en los que demostré mis habilidades en el desarrollo web.",
     "About-title":"Acerca de mi",
     "Mydescription2":"Tengo experiencia en lenguajes de programación como HTML, CSS, JavaScript, Java y C# así como en frameworks y librerías como React y Bootstrap, tambien tengo experiencia en gestores de contenido como Wordpress y Wix. También me considero un apasionado por el diseño y la UX, por lo que siempre busco crear interfaces atractivas y fáciles de usar para los usuarios.",
     "Skills":"Habilidades",
@@ -30,8 +30,9 @@
     "Project2-description":"Diseño de la página web para la empresa 'Miami Executive Car Service', y luego se implementó en el gestor de contenido Wix.",
     "Project3-description":"Proyecto final de una clase de motion graphics, que consiste en la propuesta de un video de créditos para el videojuego Apex Legends.",
     "theme-color":"Color de tema",
-    "lang":"Idioma"
-    
+    "lang":"Idioma",
+    "lets-talk":"¡ Hablemos !",
+    "contact":"Contáctame"
   },
 
 
@@ -67,6 +68,8 @@
     "Project2-description":"Design of the web page for the company 'Miami Executive Car Service', which was later implemented using the content management system Wix.",
     "Project3-description":"Final project for a motion graphics class, consisting of a proposed credit video for the video game Apex Legends.",
     "theme-color":"Theme",
-    "lang":"language"
+    "lang":"language",
+    "lets-talk":"¡ Let's Talk !",
+    "contact":"Contact me"
   }
 }
