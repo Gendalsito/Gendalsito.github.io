@@ -13,13 +13,26 @@ menuBtn.addEventListener('click', () => {
 
 })
 // hide menu
-closeBtn.addEventListener('click', () => {
+/* closeBtn.addEventListener('click', () => {
 
     menu.style.display = 'none';
     menuBtn.style.display = 'inline-block';
     closeBtn.style.display='none';
 
-})
+}) */
+
+// Definir la función para ocultar el menú
+function ocultarMenu() {
+
+    menu.style.display = 'none';
+    menuBtn.style.display = 'inline-block';
+    closeBtn.style.display='none';
+  }
+  
+  // Asignar el evento click al botón
+ 
+  closeBtn.addEventListener('click', ocultarMenu);
+  
 
 const navItems = menu.querySelectorAll('li');
 
@@ -34,12 +47,16 @@ const changueActiveItem = () => {
 navItems.forEach(item => {
 
     const link = item.querySelector('a');
-    link.addEventListener('click', () =>{
-        changueActiveItem();
-        link.classList.add('active');
-    })
-    
-});
+    link.addEventListener('click', () => {
+      changueActiveItem();
+      link.classList.add('active');
+      setTimeout(() => {
+        ocultarMenu();
+      }, 300); // Espera 1 segundo (1000 milisegundos) antes de ocultar el menú
+    });
+  
+  });
+  
 
 
 // add box shadow on scroll
