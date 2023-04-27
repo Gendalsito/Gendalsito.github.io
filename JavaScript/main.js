@@ -63,6 +63,13 @@ var typed = new Typed (".typing",{
 });
 
 
+const btnDescargar = document.getElementById('btnDescargar');
+
+btnDescargar.addEventListener('click', function() {
+  btnDescargar.disabled = true;
+});
+
+
 //Mav active
 
 
@@ -146,11 +153,6 @@ btnDescargar.addEventListener('click', function() {
 }); */
 
 
-const btnDescargar = document.getElementById('btnDescargar');
-
-btnDescargar.addEventListener('click', function() {
-  btnDescargar.disabled = true;
-});
 
 
   
