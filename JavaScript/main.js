@@ -63,7 +63,7 @@ var typed = new Typed (".typing",{
 });
 
 
-//About section
+//Mav active
 
 
 var tablinks = document.getElementsByClassName("tab-links");
@@ -87,10 +87,12 @@ function opentab(tabname){
 }
 
 
-  
+  //About Ocultar menu de nav con responsive 
+
+
   function ocultarMenu() {
      
-    if (window.innerWidth <= 768) {
+    if (window.innerWidth <= 1040) {
       menu.style.display = 'none';
       menuBtn.style.display = 'inline-block';
       closeBtn.style.display='none';
@@ -101,7 +103,7 @@ function opentab(tabname){
     setTimeout(ocultarMenu, 400);
   }
   
-  if (window.innerWidth <= 768) {
+  if (window.innerWidth <= 1040) {
 
 
     const navItems = menu.querySelectorAll('li');
@@ -121,3 +123,27 @@ function opentab(tabname){
 
 
   }
+
+//   Descargar CV
+
+var btnDescargar = document.getElementById('btnDescargar');
+btnDescargar.addEventListener('click', function() {
+  // Crear un enlace oculto
+  var link = document.createElement('a');
+  link.style.display = 'none';
+  document.body.appendChild(link);
+
+  // Obtener la ruta del archivo PDF
+  var file = '/Document/CV-EN-ES.pdf';
+
+  // Simular clic en el enlace oculto para descargar el archivo
+  link.href = file;
+  link.download = file.split('/').pop();
+  link.click();
+
+  // Eliminar el enlace oculto del DOM  
+  document.body.removeChild(link);
+});
+
+
+  

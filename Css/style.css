@@ -550,6 +550,12 @@ text-align: left;
         display: block;
     }
 
+    #btnDescargar:hover {
+        cursor: pointer!important;
+      }
+      
+
+
 /* =========== ABOUT SECTION =============== */
 
 
