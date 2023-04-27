@@ -13,26 +13,13 @@ menuBtn.addEventListener('click', () => {
 
 })
 // hide menu
-/* closeBtn.addEventListener('click', () => {
+closeBtn.addEventListener('click', () => {
 
     menu.style.display = 'none';
     menuBtn.style.display = 'inline-block';
     closeBtn.style.display='none';
 
-}) */
-
-// Definir la función para ocultar el menú
-function ocultarMenu() {
-
-    menu.style.display = 'none';
-    menuBtn.style.display = 'inline-block';
-    closeBtn.style.display='none';
-  }
-  
-  // Asignar el evento click al botón
- 
-  closeBtn.addEventListener('click', ocultarMenu);
-  
+})
 
 const navItems = menu.querySelectorAll('li');
 
@@ -47,16 +34,16 @@ const changueActiveItem = () => {
 navItems.forEach(item => {
 
     const link = item.querySelector('a');
-    link.addEventListener('click', () => {
-      changueActiveItem();
-      link.classList.add('active');
-      setTimeout(() => {
-        ocultarMenu();
-      }, 300); // Espera 1 segundo (1000 milisegundos) antes de ocultar el menú
-    });
-  
-  });
-  
+    link.addEventListener('click', () =>{
+        changueActiveItem();
+        link.classList.add('active');
+
+        
+
+        
+    })
+    
+});
 
 
 // add box shadow on scroll
@@ -99,3 +86,38 @@ function opentab(tabname){
     document.getElementById(tabname).classList.add("active-tab");
 }
 
+
+  
+  function ocultarMenu() {
+     
+    if (window.innerWidth <= 768) {
+      menu.style.display = 'none';
+      menuBtn.style.display = 'inline-block';
+      closeBtn.style.display='none';
+    }
+  }
+
+  function ocultarMenuConRetraso() {
+    setTimeout(ocultarMenu, 400);
+  }
+  
+  if (window.innerWidth <= 768) {
+
+
+    const navItems = menu.querySelectorAll('li');
+
+    navItems.forEach(item => {
+
+        const link = item.querySelector('a');
+        link.addEventListener('click', () =>{
+          
+               
+            ocultarMenuConRetraso();
+            
+        })
+        
+    });
+
+
+
+  }

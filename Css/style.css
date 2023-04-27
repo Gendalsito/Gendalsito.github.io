@@ -102,7 +102,7 @@ p {
 }
 
 section {
-    padding: 5rem 0 5rem;
+    padding: 7rem 0 7rem;
     max-width: 100vw;
     overflow-x: hidden;
 
@@ -796,15 +796,6 @@ section.portfolio .title::after {
     color: white !important;
 
 }
-
-
-
-
-
-
-
-
-
 
 
 
