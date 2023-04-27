@@ -569,6 +569,7 @@ text-align: left;
 
 .services {
     color: var(--color-primary);
+    margin-top: -8rem;
 
 
 }
@@ -693,7 +694,7 @@ section.services a:hover {
 
 .portfolio {
     color: var(--color-primary);
-  margin-top: -4rem;
+  margin-top: -8rem;
   margin-bottom: 0!important;
 
 
@@ -808,7 +809,7 @@ section.portfolio .title::after {
 .contacto {
     padding: 100px 0;
     text-align: center;
-    margin-top: -5rem!important;
+    margin-top: -10rem!important;
   }
   
   
@@ -945,7 +946,9 @@ section.portfolio .title::after {
 
     }
 
-    
+    section.portfolio{
+        margin-top: -10rem;
+    }
 
     /* PROTFOLIO */
 
