@@ -124,8 +124,8 @@ function opentab(tabname){
 
   }
 
-//   Descargar CV
-
+//   Descargar CV con JS y el DOM para controlar mejor la descarga
+/* 
 var btnDescargar = document.getElementById('btnDescargar');
 btnDescargar.addEventListener('click', function() {
   // Crear un enlace oculto
@@ -143,6 +143,13 @@ btnDescargar.addEventListener('click', function() {
 
   // Eliminar el enlace oculto del DOM  
   document.body.removeChild(link);
+}); */
+
+
+const btnDescargar = document.getElementById('btnDescargar');
+
+btnDescargar.addEventListener('click', function() {
+  btnDescargar.disabled = true;
 });
 
 
