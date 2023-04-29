@@ -12,6 +12,7 @@ menuBtn.addEventListener('click', () => {
     document.querySelector(".style-switcher").classList.remove("open");//cerrar el menu de temas
 
 })
+
 // hide menu
 closeBtn.addEventListener('click', () => {
 
@@ -29,6 +30,7 @@ const changueActiveItem = () => {
             link.classList.remove('active');
         })
 }
+
 
 
 navItems.forEach(item => {
@@ -56,7 +58,7 @@ window.addEventListener('scroll',() => {
 // CDNJS TYPING
 
 var typed = new Typed (".typing",{
-    strings:["UI/UX Design","Front Development","Video and image editing","Logo design"],
+    strings:["UI/UX Design","Front Development"],
     typeSpeed:100,
     backSpeed:60,
     loop:true
