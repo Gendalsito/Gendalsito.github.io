@@ -32,7 +32,8 @@
     "theme-color":"Color de tema",
     "lang":"Idioma",
     "lets-talk":"¡ Hablemos !",
-    "contact":"Contáctame"
+    "contact":"Contáctame",
+    "btnDescargar":"Descargar CV"
   },
 
 
@@ -70,6 +71,7 @@
     "theme-color":"Theme",
     "lang":"language",
     "lets-talk":"¡ Let's Talk !",
-    "contact":"Contact me"
+    "contact":"Contact me",
+    "btnDescargar":"Download CV"
   }
 }

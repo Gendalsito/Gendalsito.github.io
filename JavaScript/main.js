@@ -40,8 +40,7 @@ navItems.forEach(item => {
         changueActiveItem();
         link.classList.add('active');
 
-        
-
+      
         
     })
     
