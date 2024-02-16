@@ -731,46 +731,20 @@ section.portfolio .title::after {
     font-weight: bold;
   }
   
-  .proyecto img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 1rem 1rem 0 0;
-  }
+  
 
-  
-  
-  .descripcion {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    background: linear-gradient(rgba(0,0,0,0.4),var(--color-primary));
-    color: white;
-    opacity: 0;
-    transition: opacity 0.2s;
-    word-wrap: break-word;  
+  /* PROYECTODS NUEVO CON IMAGENES SOLAMENTE */
+
+  .proyecto img {
+    /* Asignar una altura fija */
+    height: 150px;
+    /* Mantener la relación de aspecto original */
+    object-fit: contain;
+    min-width: 100px;
+    
   }
   
-  .descripcion h2 {
-    margin-top: 0;
-  }
-  
-  .proyecto:hover .descripcion {
-    opacity: 1;
-  }
-  
-  .detalles {
-    display: none;
-    margin-top: 10px;
-  }
-  
-  .proyecto:hover .detalles {
-    display: block;
-  }
-  
+
  section.portfolio .descripcion h2{
     color: white;
  }
