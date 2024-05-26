@@ -702,7 +702,13 @@ section.services a:hover {
 
 section.portfolio .title::after {
 
-    content: "Projects";
+    content: "Web sites";
+
+}
+
+section.portfolio.projects .title::after {
+
+    content: "Designs";
 
 }
 
